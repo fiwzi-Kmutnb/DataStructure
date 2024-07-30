@@ -6,7 +6,7 @@ class Queues
 {
 public:
 	int range = -1;
-	int front = 0;
+	int front = 3;
 	int size = 5;
 	int Array[ASIZE];
 	bool isEmpty()
