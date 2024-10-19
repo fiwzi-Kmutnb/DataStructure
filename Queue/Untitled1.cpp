@@ -48,10 +48,10 @@ public:
 	}
 	void print()
 	{
-		for (int i = front; i <= range; i++)
+		for (int i = front; i <= range + front; i++)
 		{
 
-			cout << Array[i] << " ";
+			cout << Array[i % size] << " ";
 		}
 		cout << "\n";
 	}
